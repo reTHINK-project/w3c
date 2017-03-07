@@ -13,8 +13,6 @@ This Charter is work in progress. To submit feedback, please use reTHINK [W3C](h
 Goals
 -----
 
-{describe the mission and goals of the Community Group. This should be a brief description describing the reason the group has been formed.}
-
 Decentralized network topologies were introduced in the [*On Distributed Communications* Paul Baran's 1962 seminal Work*](http://www.rand.org/pubs/research_memoranda/RM3420.html) providing the foundations to design the Internet and the Web with no single point of control and failure. However, these basics foundations are at odds with centralized powers controlling the Web.
 
 With [Web Monopolies](http://www.economist.com/news/briefing/21635077-online-businesses-can-grow-very-large-very-fastit-what-makes-them-exciting-does-it-also-make), the fundamental users' freedom to select whom to trust their data and select which Services to be consumed are curtailed.
@@ -25,49 +23,47 @@ However, the scale and the complexity of the problem for IoT communications is m
 
 Usually these kinds of problems are addressed with strongly regulated and standardized services as the ones delivered by Telecommunication operators including GSMA mobile telephony and SMS text messaging.
 But reaching agreements on standards is a very complex activity.
-[Standards and rules in general (including regulating policies) in a fast moving area as the Web, constraints stakeholders freedom to innovate with alternative technologies or processes](http://www.rand.org/pubs/monograph_reports/MR1215.html).
+Standards and rules in general (including regulating policies) in a fast moving area as the Web, [constraints stakeholders freedom to innovate with alternative technologies or processes](http://www.rand.org/pubs/monograph_reports/MR1215.html).
 
-In such complex and contradictory environment, Decentralizes Communications addresses the following two main questions:
+In such complex and contradictory environment, Decentralizes Communications addresses the following two main challenges:
 
-* How to try new and disruptive communication services without breaking cross-domain interoperability
+* How to deliver innovative communication services without breaking cross-domain interoperability
 
 * How to have the right balance between privacy and freedom to select who to trust, without slowing down Web innovation pace
 
-This Group specifies and builds a reference implementation of Decentralized Communications which enables natively inter-operable communication services that are able to trustfully use peer to peer connections without having to use central authorities or services. Decentralized Comms are inherently inter-operable without standard protocols by using the Protocol on-the-fly concept, where the most appropriate protocol stack to be used, is selected and instantiated at run-time.
+This Group specifies and builds a reference implementation of Decentralized Communications which enables natively inter-operable communication services that are able to trustfully use peer to peer connections without having to use central authorities or services. Decentralized Communications are inherently inter-operable without standard protocols by using the Protocol on-the-fly concept, where the most appropriate protocol stack to be used, is selected and instantiated at run-time.
 
 
 Scope of Work
 -------------
 
-{Describe topics that are in scope. For specifications that the CLA patent section applies to, it is helpful to describe the scope in a way that it is clear what types of technologies will be defined in specifications, as opposed to adoption by reference or underlying technology not defined in the proposed spec. Key use cases are often helpful in describing scope. If no specifications will be defined in the group that the CLA patent section applies to, the charter should clearly state that. A clear scope is particularly important where patent licensing obligations may apply.}
+This Group works on the specification of a new communication framework called Decentralized Communications which enables trustworthy interoperability among services by using peer-to-peer networks without having to standardize protocols or service APIs. Decentralized Communications can be applied on any kind of communication including humanto-human, human-to-things and things-to-things communication.
 
-This Group works on the following topics in terms of specifications and reference Implementations:
+The Group also provides a reference implementation to support and validate the specification work.
 
-* A Decentralized Messaging Framework that is designed on top of a Resource Oriented Messaging model, supporting publish/subscribe as well as request/response messaging patterns.
+The following topics are covered:
 
-* Protocol on-the-fly leverages the code on-demand support by the Web runtime, to dynamically select, load and instantiate the most appropriate protocol stack at run-time. It is used by the Decentralized Messaging Framework to support interoperability without having to standardize Messaging Protocols.
+* a Decentralized Messaging Framework that is designed on top of a Resource Oriented Messaging model, supporting publish/subscribe as well as request/response messaging patterns in peer-to-peer mode.
 
-* Peer-to-peer data synchronisation of programmatic Data Objects to address semantic interoperability between services.
+* the Protocol on-the-fly that leverages the code on-demand support by the Web runtime, to dynamically select, load and instantiate the most appropriate protocol stack at run-time. It is used by the Decentralized Messaging Framework to support interoperability without having to standardize Messaging Protocols.
 
-* Decentralized trust where services are securely associated to User Identities that are managed by independent Identity Providers.
+* semantic interoperability between services by using peer-to-peer data synchronisation of programmatic Data Objects.
 
-* Decentralized Microservices as Hyperlinked Entities (Hyperties) that are designed according to Decentralized Communication principles following Microservices architectural pattern. Hyperties are independently deployable components that are dynamically loaded from Catalogues and instantiated in Web runtimes, as required by Web Applications.
+* a decentralized trust framework where services are securely associated to User Identities that are managed by independent Identity Providers. Users are empowered to select Identity Providers to mutually authenticate users and secure communications, independently of the Communication Service Provider
 
-* Interworking with legacy services
+* a new decentralized services paradigm called Hyperlinked Entities (Hyperties) that are designed according to Decentralized Communication principles following Microservices architectural pattern. Hyperties are independently deployable components that are dynamically instantiated in Web runtimes, as required by Web Applications.
+
 
 Deliverables
 ------------
 
 ### Specifications
 
-{Provide a brief description of each specification the group plans to produce. Where an estimate is possible, it can be useful to provide an estimated schedule for key deliverables. As described below, the group may later modify the charter deliverables. if no specifications, include: "No Specifications will be produced under the current charter."}
+The specification of Decentralized Communications Framework are provided in [this](https://github.com/reTHINK-project/specs) Github repository. A first version is currently provided as output of reTHINK Project.
 
-The specification of Decentralized Communications Framework are provided in [this](https://github.com/reTHINK-project/specs) Github repository. A first version is currently provided as output of reTHINK Project. It is expected to evolve the specification with input from the Community.
+It is planned to produce during the first half of 2017, the specifications to extend the Open Web Platform in order to support the execution and deployment of Decentralized Communication services.
 
 ### Reference Implementation
-
-{TBD: If there are no plans to create a test suite or other software, please state that and remove the following paragraph. If Github is not
-being used, then indicate where the license information is. If GitHub is being used link to your LICENSE.md file in the next paragraph.}
 
 A reference implementation to support the initial Specification is provided as output of reTHINK Project:
 
@@ -104,7 +100,7 @@ It is expected to evolve the reference implementaion with inputs from the Commun
 Dependencies or Liaisons {#liaisons}
 ------------------------
 
-{TBD: List any significant dependencies on other groups (inside or outside W3C) or materials. }
+*List any significant dependencies on other groups (inside or outside W3C) or materials*
 
 * [WebRTC 1.0: Real-time Communication Between Browsers](WebRTC 1.0: Real-time Communication Between Browsers)
 
