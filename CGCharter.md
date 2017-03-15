@@ -15,15 +15,15 @@ Goals
 
 Decentralized network topologies were introduced in the [*On Distributed Communications* Paul Baran's 1962 seminal Work*](http://www.rand.org/pubs/research_memoranda/RM3420.html) providing the foundations to design the Internet and the Web with no single point of control and failure. However, these basics foundations are at odds with centralized powers controlling the Web.
 
-With [Web Monopolies](http://www.economist.com/news/briefing/21635077-online-businesses-can-grow-very-large-very-fastit-what-makes-them-exciting-does-it-also-make), the fundamental users' freedom to select whom to trust their data and select which Services to be consumed are curtailed.
-Users are forced to consume Services from the same organization in order to communicate or share any kind of resource to each other.
+With [Web Monopolies](http://www.economist.com/news/briefing/21635077-online-businesses-can-grow-very-large-very-fastit-what-makes-them-exciting-does-it-also-make), the fundamental users' freedom to select whom to trust their data to and select which Services to be consumed are curtailed.
+Users are forced to consume Services from the same organization in order to communicate or share any kind of resource with each other.
 The data that is generated from the Service consumption as well as a user's own identity, are managed by the very same Service provider, giving no choice to users as to whom to trust.
 The same problem pattern applies to communication between humans and things (Internet of Things).
 However, the scale and the complexity of the problem for IoT communications is much higher.
 
 Usually these kinds of problems are addressed with strongly regulated and standardized services as the ones delivered by Telecommunication operators including GSMA mobile telephony and SMS text messaging.
 But reaching agreements on standards is a very complex activity.
-Standards and rules in general (including regulating policies) in a fast moving area as the Web, [constraints stakeholders freedom to innovate with alternative technologies or processes](http://www.rand.org/pubs/monograph_reports/MR1215.html).
+Standards and rules in general (including regulating policies) in a fast moving area as the Web, [constrain stakeholders freedom to innovate with alternative technologies or processes](http://www.rand.org/pubs/monograph_reports/MR1215.html).
 
 In such complex and contradictory environment, Decentralizes Communications addresses the following two main challenges:
 
@@ -37,7 +37,7 @@ This Group specifies and builds a reference implementation of Decentralized Comm
 Scope of Work
 -------------
 
-This Group works on the specification of a new communication framework called Decentralized Communications which enables trustworthy interoperability among services by using peer-to-peer networks without having to standardize protocols or service APIs. Decentralized Communications can be applied on any kind of communication including humanto-human, human-to-things and things-to-things communication.
+This Group works on the specification of a new communication framework called Decentralized Communications which enables trustworthy interoperability among services by using peer-to-peer networks without having to standardize protocols or service APIs. Decentralized Communications can be applied on any kind of communication including human-to-human, human-to-things and things-to-things communication.
 
 The Group also provides a reference implementation to support and validate the specification work.
 
@@ -53,13 +53,15 @@ The following topics are covered:
 
 * a new decentralized services paradigm called Hyperlinked Entities (Hyperties) that are designed according to Decentralized Communication principles following Microservices architectural pattern. Hyperties are independently deployable components that are dynamically instantiated in Web runtimes, as required by Web Applications.
 
+* a global hierarchical registry mechanism that is scalable to support dynamic endpoint descovery, supporting mobility and Identity Provider independance. 
+
 
 Deliverables
 ------------
 
 ### Specifications
 
-The specification of Decentralized Communications Framework are provided in [this](https://github.com/reTHINK-project/specs) Github repository. A first version is currently provided as output of reTHINK Project.
+The specification of Decentralized Communications Framework are provided in [this](https://github.com/reTHINK-project/specs) Github repository. A first version is currently provided as output of the reTHINK Project.
 
 It is planned to produce during the first half of 2017, the specifications to extend the Open Web Platform in order to support the execution and deployment of Decentralized Communication services.
 
